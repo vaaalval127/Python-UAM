@@ -17,7 +17,7 @@ def limpiar_pantalla():
 print("\n")
 print("Programa para gestión de inventario en una tienda \n")
 
-lista_productos  = [[1111, 'pan', 30, 60]]
+lista_productos  = []
 
 while True :
     print("1. Agregar producto")

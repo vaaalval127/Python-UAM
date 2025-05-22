@@ -61,7 +61,6 @@ def Menu():
             usuario = input("\nIngrese el nombre del usuario: ")
             nombre_documento = input("Ingrese el nombre del documento que desea imprimir: ")
             paginas = int(input("Ingrese la cantidad de páginas del documento: "))
-            clear()
             llamada = ImpresionDatos(usuario, nombre_documento, paginas)
             imprimir.agregar(llamada)
        

@@ -26,7 +26,7 @@ diccionario = {}
 def crearDiccionario():
     print("\n   Introduzca 5 pares de palabras en inglés y español: \n")
 
-    for i in range(5):
+    for i in range(2):
         print("Palabras en inglés: ", end='')
         palabras_ingles = input()
 
